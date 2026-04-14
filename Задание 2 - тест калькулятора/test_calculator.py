@@ -26,7 +26,7 @@ class TestCalculator(unittest.TestCase):
         num1 = random.uniform(-100, 100)
         num2 = random.uniform(-100, 100)
         
-        # Если num2 равно 0, проверяем, что возвращается правильная ошибка
+        # Если num2 равно 0 , проверяем, что возвращается правильная ошибка
         if num2 == 0:
             expected = "На ноль делить нельзя!"
         else:
