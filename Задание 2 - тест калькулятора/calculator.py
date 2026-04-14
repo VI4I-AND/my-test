@@ -9,7 +9,7 @@ def multiply(x, y):
 
 def divide(x, y):
     if y == 0:
-        return "На ноль делить нельзя!"
+        return "На ноль делить нельзя! "
     return x / y
 
 def calculator():
