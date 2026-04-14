@@ -22,7 +22,7 @@ describe('Тестирование сайта playground.ru', () => {
           .should('be.visible')
           .type('PoE 2');
       } else {
-        // Если модальное окно не видно, сразу работаем с поисковым полем
+        // Если модальное окно не видно , сразу работаем с поисковым полем
         cy.get('#searchPG')
           .should('be.visible')
           .type('PoE 2');
