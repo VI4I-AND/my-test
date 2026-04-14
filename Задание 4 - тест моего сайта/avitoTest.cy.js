@@ -14,7 +14,7 @@ describe('Avito Page Test', () => {
       .and('be.visible')
       .type('айфон 11{enter}');
 
-    // Ждем загрузки объявлений
+    // Ожидаем загрузки объявлений
     cy.get('[data-marker="item"]', { timeout: 10000 })
       .should('exist');
 
