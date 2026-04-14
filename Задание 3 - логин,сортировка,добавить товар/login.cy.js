@@ -10,7 +10,7 @@ describe('Login test for Sauce Demo', () => {
   
 	users.forEach((user) => {
 	  it(`should login successfully with ${user.username}`, () => {
-		cy.visit('https://www.saucedemo.com/'); // Переходим на сайт
+		cy.visit('https://www.saucedemo.com/'); //  Переходим на сайт
   
 		// Вводим данные для входа
 		cy.get('input#user-name').type(user.username); // Логин
