@@ -46,6 +46,6 @@ cy.get('#name').type(randomUsername);
 cy.get('#password').type(randomPassword);  
 Отправка формы авторизации:
 
-Клик по кнопке входа (селектор .js-login > .btn-outline-primary).
+Клик по кнопке  входа (селектор .js-login > .btn-outline-primary).
 
 Пример: cy.get('.js-login > .btn-outline-primary').click().
