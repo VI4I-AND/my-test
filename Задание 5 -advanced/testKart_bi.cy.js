@@ -1,6 +1,6 @@
 describe('Простой тест на сайте Aviasales', () => {
   beforeEach(() => {
-    // Игнорирование необработанных исключений
+    // Игнорирование  необработанных исключений
     cy.on('uncaught:exception', (err, runnable) => {
       // Возвращаем false, чтобы Cypress не прерывал тест на ошибке
       return false;
