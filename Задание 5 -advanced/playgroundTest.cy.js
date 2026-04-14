@@ -15,7 +15,7 @@ describe('Тестирование сайта playground.ru', () => {
 
         // Клик по кнопке .signup-button > .hidden-xs
         cy.get('.signup-button > .hidden-xs')
-          .should('be.visible')  // Проверка, что элемент видим
+          .should('be.visible')  // Проверка,что элемент видим
           .click();  // Клик по кнопке
 
         // Заполнение формы логина (поля с id='name')
