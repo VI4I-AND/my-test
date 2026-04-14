@@ -18,7 +18,7 @@ cy.get('.s__rjNuWebUllS07JjnN9xC > .s__dqLrjmV81lbY2ctpQQWt').click();
 cy.get('.s__rjNuWebUllS07JjnN9xC > .s__dqLrjmV81lbY2ctpQQWt').should('not.exist');  
 Ввод города назначения:
 
-Ввод "Москва" в поле #avia_form_destination-input.
+Ввод "Санкт-Петербург" в поле #avia_form_destination-input.
 
 Пример: cy.get('#avia_form_destination-input').type('Москва').
 
